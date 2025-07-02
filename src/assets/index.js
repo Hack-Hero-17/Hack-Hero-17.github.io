@@ -47,6 +47,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import clarity from "./clarity.png";
+import imdb from "./imdb.png";
+import portfolio from "./portfolio.png";
 
 export {
   bdms,
@@ -95,4 +98,7 @@ export {
   java,
   sql,
   oracle,
+  clarity,
+  imdb,
+  portfolio,
 };

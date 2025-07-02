@@ -31,6 +31,9 @@ import {
   java,
   sql,
   oracle,
+  clarity,
+  imdb,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -291,7 +294,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "AI Travel Itinerary App",
+    name: "AI Travel Itinerary Generator - Chat-Based MERN Stack App",
     description:
       "Developed a chat-based AI travel itinerary generation app using the MERN stack and the Gemini API for chat responses. Integrated a dynamic expense tracker and implemented Firebase Authentication for secure login and signup functionality.",
     tags: [
@@ -381,6 +384,98 @@ const projects = [
     image: tripguide,
     source_code_link:
       "https://github.com/Hack-Hero-17/Irrigation-Control-System.git",
+  },
+  {
+    name: "Clarity - A Cpp Based Image Processing Project",
+    description:
+      "Clarity is an image processing application developed using the OpenCV library. It supports various image processing functionalities, including Gaussian blur, grayscale conversion, and brightness adjustment. The project integrates OpenCV C++ API and is designed for Linux environments",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Linux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "WSL",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: clarity,
+    source_code_link: "https://github.com/Hack-Hero-17/Clarity-cpp-project",
+  },
+  {
+    name: "Deep Learning based IMDb Review Sentiment Classification",
+    description:
+      "Built a BiLSTM-based model with GloVe embeddings to classify IMDb movie reviews as positive or negative. Achieved high accuracy through effective preprocessing, tokenization, and use of pre-trained word vectors.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google Colab",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Deep Learning",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "BiLSTM",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Neural Networks",
+        color: "gray-text-gradient",
+      },
+    ],
+    image: imdb,
+    source_code_link:
+      "https://github.com/Hack-Hero-17/IMDb-Review-Sentiment-Classification.git",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "A personal portfolio website showcasing my skills, projects, and experiences. Built with React.js, Three.js and Tailwind CSS, it features a 3-D rendering, responsive design and smooth animations.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "EmailJS",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/Hack-Hero-17/personal-portfolio.git",
   },
 ];
 
