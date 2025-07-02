@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
 }
@@ -98,6 +97,18 @@
   -webkit-text-fill-color: transparent;
 }
 
+.yellow-text-gradient {
+  background: #fddb92; /* fallback for older browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fddb92,
+    #d1fdff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fddb92, #d1fdff); /* Modern browsers */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .pink-text-gradient {
   background: #ec008c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -110,6 +121,12 @@
     #ec008c,
     #fc6767
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gray-text-gradient {
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
